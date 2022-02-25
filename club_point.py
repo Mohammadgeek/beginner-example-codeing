@@ -53,14 +53,5 @@ def match_count(club):
             print(f'the all point team is {total} , the sum equall game is :{result_b}')
             break
     
-
-
-            
-           
-            
-                
-        
-            
-
-path = "V:/testing/club_point.txt"
+path = "address your patch"
 print(match_count(path))
