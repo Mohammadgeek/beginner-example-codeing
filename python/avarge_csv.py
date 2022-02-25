@@ -19,13 +19,13 @@ def calculate_averages(input_file_name,output_file_name):
         print(user[0],user[1])
     
 
-path = 'V:/testing/collage.csv'
+path = 'please enter your patch'
 out = 'V:/testing/result.csv'
 result = calculate_averages
 print(result(path,out))
 
 
-'''
+
 #loop outside control programmer
 
 def calculate_sorted_averages(input_file_name,output_file_name):
@@ -44,7 +44,7 @@ def calculate_sorted_averages(input_file_name,output_file_name):
         print(user[0],user[1])
 
 
-path = "V:/testing/collage.csv"
+path = "please enter your patch"
 out = 'V:/testing/result.csv'
 print(calculate_sorted_averages(path,out))
 
@@ -70,7 +70,7 @@ def calculate_three_best(input_file_name, output_file_name):
             print(worst_avg[0],worst_avg[1])
 
 
-path = 'V:/testing/collage.csv'
+path = 'please enter your patch'
 out = 'V:/testing/result.csv'
 print(calculate_three_best(path,out))
 
@@ -98,7 +98,7 @@ def calculate_three_worst(input_file_name, output_file_name):
                 #print(name,":",avg)
 
 
-path = 'V:/testing/collage.csv'
+path = 'please enter your patch'
 out = 'V:/testing/result.csv'
 print(calculate_three_worst(path,out))
 
@@ -119,7 +119,6 @@ def calculate_average_of_averages(input_file_name,output_file_name):
         lst = list(d.values())
         print(mean(lst))
 
-path = 'V:/testing/collage.csv'
+path = 'please enter your patch'
 out = 'V:/testing/result.csv'
 print(calculate_average_of_averages(path,out))
-'''
