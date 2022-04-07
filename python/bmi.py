@@ -1,6 +1,4 @@
 
-import tkinter as tk
-
 def bmi_cal(weight,height):
     bmi = weight / (height/100) **2 #bmi = weight/(height**2)
     print("body mass index equall is {:.2f}".format(bmi))
@@ -55,9 +53,3 @@ age = int(input('please enter your age :?\n'))
 wight = int(input('please enter your weight :\n'))
 height = int(input('please enter your height:\n'))
 print(ponderal(age,wight,height))
-
-
-
-
-
-
