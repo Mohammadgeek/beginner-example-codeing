@@ -2,12 +2,11 @@
 import tkinter as tk
 
 def bmi_cal(weight,height):
-    bmi = weight / (height/100) **2 # si unit
-    #ponderal = weight / (height/100) **3 # si unit
+    bmi = weight / (height/100) **2 #bmi = weight/(height**2)
     print("body mass index equall is {:.2f}".format(bmi))
     print("ponderal index equall is {:.4f}".format(ponderal))
 
-    #bmi = weight/(height**2)
+    
     if (bmi <= 18.5 and bmi == 18):
         print('Underwight body mass')
     if (bmi >= 18.5 and bmi <= 24.9):
@@ -20,10 +19,11 @@ def bmi_cal(weight,height):
 a = int(input('please enter your weight :\n'))
 b = int(input('please enter your height:\n'))
 print(bmi_cal(a,b))
-#print(bmi_cal(65,185))
 
-#PI_adult = weight [kg]/ height [m]³
+
+#PI_adult = weight [kg]/ height [m]³ 
 #PI_child = weight [g]/ height [cm]³ = 0.1 * PI_adult
+
 def ponderal(age,wight,height):
     if age >= 4:
         print('calcualte ponderal adult ')
