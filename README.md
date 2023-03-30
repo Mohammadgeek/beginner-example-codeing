@@ -1,5 +1,9 @@
-<<<<<<< HEAD
-# pythonexample
-تمرینات پایتون برای کسانی که میخوان پایتون شروع کنن میتونه مناسب باشه امیدوارم مفید باشه براتون و بهم توی اضافه کردن سورس های جدید کمک کنید.'
-#beginner project
+# simple code for beginners developers
+i hope use this repositroy ,good luck:)
+
+## use multiple programming languagus 
+- python
+- javascript
+- html/css
+- the more languagus at soon 
 
